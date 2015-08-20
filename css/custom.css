@@ -51,6 +51,15 @@ body {
 .carousel-caption {
   z-index: 10;
 }
+/* position button paragraph */
+.carousel-caption p {
+  padding: 10px;
+}
+
+/* position button paragraph */
+.carousel-caption h1 {
+  font-size: 30px;
+}
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
@@ -64,13 +73,12 @@ body {
   width: 30%;
 }
 
-
-/* MARKETING CONTENT
+/* CUSTOMIZE THE page header
 -------------------------------------------------- */
-.pagetopspacer {
-    height: 150px;
+.page-header {
+    padding: 20px;
+    text-align: center;
 }
-
 
 /* Pad the edges of the mobile views a bit */
 .marketing {
@@ -105,9 +113,7 @@ body {
 
 /* Thin out the marketing headings */
 .featurette-heading {
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -1px;
+  font-weight: bold;
 }
 
 
@@ -138,11 +144,6 @@ body {
     font-size: 21px;
     line-height: 1.4;
   }
-
-  .featurette-heading {
-    font-size: 50px;
-  }
-
 }
 
 @media (min-width: 992px) {

@@ -334,8 +334,8 @@
     "@thumbnail-border-radius": "@border-radius-base",
     "@thumbnail-caption-color": "@text-color",
     "@thumbnail-caption-padding": "9px",
-    "@well-bg": "#f5f5f5",
-    "@well-border": "darken(@well-bg, 7%)",
+    "@well-bg": "@list-group-bg",
+    "@well-border": "@list-group-border",
     "@badge-color": "#fff",
     "@badge-link-hover-color": "#fff",
     "@badge-bg": "@gray-light",
@@ -430,5 +430,5 @@
     "scrollspy.js",
     "transition.js"
   ],
-  "customizerUrl": "http://getbootstrap.com/customize/?id=816f01de854484e1ce7c"
+  "customizerUrl": "http://getbootstrap.com/customize/?id=bf29e20ad00c9bce9363"
 }

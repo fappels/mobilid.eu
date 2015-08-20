@@ -6,9 +6,9 @@
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description"
-    content="Mobilid voegt eenvoudige mobiele data verwerking toe aan al uw product gerelateerde processen, zoals het inventariseren van uw stock of het collecteren van klant bestellingen. Ervaar het gebruik van industriële draagbare computers op uw standaard smartphones en tablet computers. Bluetooth verbinding naar barcode scanners en andere automatische indentificatie (Auto-Id) toestellen is mogelijk." />
+    content="Mobiele app voor Dolibarr zorgt voor een snelle en efficiënte verwerking van uw logistieke en commerciele handelingen. Mobilid kan barcodes scannen via camera en bluetooth." />
     <meta name="author" content="" />
-    <link rel="shortcut icon" href="icon/icon.png" />
+    <link rel="shortcut icon" href="../icon/icon.png" />
     <title>Mobilid</title>
     <!-- Bootstrap core CSS -->
     <link href="../css/bootstrap.min.css" rel="stylesheet" />
@@ -24,7 +24,9 @@
   <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"></button> 
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span><span class="icon-bar"></span> <span class="icon-bar"></span>
+      </button> 
       <a class="navbar-brand" style="color: #00FF00;" href="index.html">Mobilid</a></div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
@@ -64,11 +66,16 @@
       <!--/.navbar-collapse -->
     </div>
   </div>
-  <div class="pagetopspacer"></div>
+  <div class="page-header">
+    <h1>Beschikbare modules<br><small>Mobilid heeft een set modules om de efficiëntie van dagelijkse logistieke en commerciële handeling te verbeteren.</small></h1>
+  </div>
   <div class="container marketing">
     <!-- START THE FEATURETTES -->
-    <h1 id="featurette-heading">Standaard modules</h1>
-    <hr id="trends" class="featurette-divider" />
+    <div class="well">
+      <h2>Standaard modules<br><small>De modules inbegrepen in het basispakket verkocht op <a href="https://www.dolistore.com/en/crm-customer-relationship-management/407-Connector-for-Mobilid-Mobile-client.html"
+          target="_blanc">Dolistore</a></small></h2>
+    </div>
+    <hr id="inventory" class="featurette-divider" />
     <div class="row featurette">
       <div class="col-md-7">
         <h2 class="featurette-heading">Inventaris module.</h2>
@@ -85,7 +92,7 @@
         </ul>
         <p>Inventarisatie mogelijkheden:</p>
         <ul class="list-group">
-          <li class="list-group-item">Eenvoudige ingave productaantallen.</li>
+          <li class="list-group-item">Eenvoudige ingave product aantallen.</li>
           <li class="list-group-item">Mogelijkheid tot verplaatsing naar ander magazijn.</li>
           <li class="list-group-item">Mogelijkheid tot toevoegen van een product foto via de camera.</li>
           <li class="list-group-item">Gedetailleerde productinformatie opvraagbaar.</li>
@@ -97,7 +104,7 @@
         </div>
       </div>
     </div>
-    <hr id="cost" class="featurette-divider" />
+    <hr id="picking" class="featurette-divider" />
     <div class="row featurette">
       <div class="col-md-7">
         <h2 class="featurette-heading">Order Picking module</h2>
@@ -127,7 +134,7 @@
         </div>
       </div>
     </div>
-    <hr id="cost" class="featurette-divider" />
+    <hr id="order" class="featurette-divider" />
     <div class="row featurette">
       <div class="col-md-7">
         <h2 class="featurette-heading">Bestel module</h2>
@@ -140,7 +147,7 @@
         <ul class="list-group">
           <li class="list-group-item">Selecteer klant van filterbare en sorteerbare list met zoek mogelijkheid.</li>
           <li class="list-group-item">Voeg nieuwe klant toe.</li>
-          <li class="list-group-item">Gebruik de betaalvoorwaardes van de klant.</li>
+          <li class="list-group-item">Gebruik de betalingsvoorwaarde van de klant.</li>
         </ul>
         <p>Voeg producten en diensten toe:</p>
         <ul class="list-group">
@@ -159,7 +166,7 @@
         </div>
       </div>
     </div>
-    <hr id="trends" class="featurette-divider" />
+    <hr id="prospect" class="featurette-divider" />
     <div class="row featurette">
       <div class="col-md-7">
         <h2 class="featurette-heading">Commerciële module</h2>
@@ -193,9 +200,11 @@
         </div>
       </div>
     </div>
-    <hr id="trends" class="featurette-divider" />
-    <h1 class="featurette-heading">Add-On modules</h1>
-    <hr id="trends" class="featurette-divider" />
+	<hr id="addon" class="featurette-divider" />
+    <div class="well">
+      <h2>Add-On modules <br><small>Optionele modules toe te voegen aan Mobilid, <a href="mailto:info@z-application.com?subject=Add-on%20Module">contacteer</a> om een licentiesleutel te verkrijgen.</small></h2>
+    </div>
+    <hr id="dispatch" class="featurette-divider" />
     <div class="row featurette">
       <div class="col-md-7">
         <h2 class="featurette-heading">Ontvangst module</h2>
@@ -234,11 +243,10 @@
       <p class="pull-right">
         <a href="#">Back to top</a>
       </p>
-      <p>© 2013-2015 
-      <a href="http://z-application.com/nl">Z-Application</a> � 
-      <a href="http://z-application.com/privacy.html" target="_blanc">Privacy</a> � 
-      <a href="http://z-application.com/voorwaarden" target="_blanc">Algemene voorwaarden</a> � 
-      <a href="http://z-application.com/naverkoop" target="_blanc">Ondersteuning</a></p>
+      <p>&copy; 2013-2015<a href="http://z-application.com"> Z-Application</a>
+      <span class="glyphicon glyphicon-eye-open"></span><a href="http://z-application.com/privacy.html" target="_blanc"> Privacy</a>
+      <span class="glyphicon glyphicon-file"></span><a href="http://z-application.com/voorwaarden" target="_blanc"> Algemene voorwaarden</a>
+      <span class="glyphicon glyphicon-comment"></span><a href="http://z-application.com/naverkoop" target="_blanc"> Ondersteuning</a></p>
     </footer>
   </div>
   <!-- /.container -->

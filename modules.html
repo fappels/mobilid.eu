@@ -6,7 +6,7 @@
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description"
-    content="Mobile app which adds easy data processing to all enterprise processes related to material handling. Mobilid has Automatic Identification and Data Capture (AIDC) capabilities, better known as Auto-Id. Cross-platform mobile business application, mvc sencha touch packaged using cordova/phonegap." />
+    content="Mobile app for Dolibarr to improve and fasten your daily logistic and commercial operations. Mobilid scans barcodes and is prepared for other auto-id connectivity." />
     <meta name="author" content="" />
     <link rel="shortcut icon" href="icon/icon.png" />
     <title>Mobilid</title>
@@ -24,12 +24,14 @@
   <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"></button> 
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span><span class="icon-bar"></span> <span class="icon-bar"></span>
+      </button> 
       <a class="navbar-brand" style="color: #00FF00;" href="index.html">Mobilid</a></div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
           <li>
-            <a href="index.html">Home</a>
+            <a href="index.html?lang=en">Home</a>
           </li>
           <li class="active">
             <a href="#">Modules</a>
@@ -64,14 +66,20 @@
       <!--/.navbar-collapse -->
     </div>
   </div>
-  <div class="pagetopspacer"></div>
+  <div class="page-header">
+    <h1>Available modules<br><small>Mobilid has a set of modules to improve the efficiency of your daily logistic and commercial operations.</small></h1>
+  </div>
   <div class="container marketing">
+    <div class="well">
+      <h2>Standard modules<br><small>The modules included in the base package you buy on <a href="https://www.dolistore.com/en/crm-customer-relationship-management/407-Connector-for-Mobilid-Mobile-client.html"
+          target="_blanc">Dolistore</a></small></h2>
+    </div>
     <!-- START THE FEATURETTES -->
-    <h1 class="featurette-heading">Standard modules</h1>
-    <hr id="trends" class="featurette-divider" />
+    
+    <hr id="inventory" class="featurette-divider" />
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">Inventory module.</h2>
+        <h3 class="featurette-heading">Inventory module.</h3>
         <p class="lead">Module to do products inventory.</p>
       </div>
     </div>
@@ -97,10 +105,10 @@
         </div>
       </div>
     </div>
-    <hr id="cost" class="featurette-divider" />
+    <hr id="picking" class="featurette-divider" />
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">Order Picking module</h2>
+        <h3 class="featurette-heading">Order Picking module</h3>
         <p class="lead">Module to collect customer orders.</p>
       </div>
     </div>
@@ -127,10 +135,10 @@
         </div>
       </div>
     </div>
-    <hr id="cost" class="featurette-divider" />
+    <hr id="order" class="featurette-divider" />
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">Order module</h2>
+        <h3 class="featurette-heading">Order module</h3>
         <p class="lead">Module to create customer orders.</p>
       </div>
     </div>
@@ -158,10 +166,10 @@
         </div>
       </div>
     </div>
-    <hr id="trends" class="featurette-divider" />
+    <hr id="prospect" class="featurette-divider" />
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">Commercial module</h2>
+        <h3 class="featurette-heading">Commercial module</h3>
         <p class="lead">Module to contact Prospects and make appointments.</p>
         <p>Easy contact your prospects and customers, make appointments using calendar.</p>
         <br />
@@ -193,12 +201,14 @@
         </div>
       </div>
     </div>
-    <hr id="trends" class="featurette-divider" />
-    <h1 class="featurette-heading">Add-On modules</h1>
-    <hr id="trends" class="featurette-divider" />
+    <hr id="addon" class="featurette-divider" />
+    <div class="well">
+      <h2>Add-On modules <br><small>Optional modules you can add to Mobilid, please <a href="mailto:info@z-application.com?subject=Add-on%20Module">contact</a> for obtaining an activation key.</small></h2>
+    </div>
+    <hr id="dispatch" class="featurette-divider" />
     <div class="row featurette">
       <div class="col-md-7">
-        <h2 class="featurette-heading">Dispatch module</h2>
+        <h3 class="featurette-heading">Dispatch module</h3>
         <p class="lead">Module to receive your supplier orders to your stock.</p>
         <br />
       </div>
@@ -234,11 +244,10 @@
       <p class="pull-right">
         <a href="#">Back to top</a>
       </p>
-      <p>Â© 2013-2015 
-      <a href="http://z-application.com/nl">Z-Application</a> · 
-      <a href="http://z-application.com/privacy.html" target="_blanc">Privacy</a> · 
-      <a href="http://z-application.com/terms" target="_blanc">Terms</a> · 
-      <a href="http://z-application.com/support" target="_blanc">Support</a></p>
+      <p>&copy; 2013-2015<a href="http://z-application.com"> Z-Application</a>
+      <span class="glyphicon glyphicon-eye-open"></span><a href="http://z-application.com/privacy.html" target="_blanc"> Privacy</a>
+      <span class="glyphicon glyphicon-file"></span><a href="http://z-application.com/terms" target="_blanc"> Terms</a>
+      <span class="glyphicon glyphicon-comment"></span><a href="http://z-application.com/support" target="_blanc"> Support</a></p>
     </footer>
   </div>
   <!-- /.container -->

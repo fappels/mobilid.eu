@@ -6,7 +6,7 @@
     <meta content="text/html; charset=utf-8" http-equiv="content-type" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description"
-    content="Mobile app which adds easy data processing to all enterprise processes related to material handling. Mobilid has Automatic Identification and Data Capture (AIDC) capabilities, better known as Auto-Id. Cross-platform mobile business application, mvc sencha touch packaged using cordova/phonegap." />
+    content="Mobile app for Dolibarr to improve and fasten your daily logistic and commercial operations. Mobilid scans barcodes and is prepared for other auto-id connectivity." />
     <meta name="author" content="" />
     <link rel="shortcut icon" href="icon/icon.png" />
     <title>Mobilid</title>
@@ -24,12 +24,14 @@
   <div class="navbar navbar-inverse navbar-fixed-top">
     <div class="container">
       <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"></button> 
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="icon-bar"></span><span class="icon-bar"></span> <span class="icon-bar"></span>
+      </button> 
       <a class="navbar-brand" style="color: #00FF00;" href="index.html">Mobilid</a></div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav">
           <li>
-            <a href="index.html">Home</a>
+            <a href="index.html?lang=en">Home</a>
           </li>
           <li>
             <a href="modules.html">Modules</a>
@@ -64,17 +66,17 @@
       <!--/.navbar-collapse -->
     </div>
   </div>
-  <div class="pagetopspacer"></div>
+  <div class="page-header">
+    <h1>Mobilid<br><small>Mobilid is a software package which intends to be a generic mobile client-server solution. You buy a extendable
+    server-package including some standard 
+    <a href="modules.html#standard">modules</a>. Extendable means that you can buy add-on modules or custom made modules. To enable
+    these modules, you will need a user license code. You need to provide this code to the client application. The mobile client
+    can be downloaded for free.</small></h1>
+  </div>
   <!-- Marketing messaging and featurettes
     ================================================== -->
   <!-- Wrap the rest of the page in another container to center all the content. -->
   <div class="container marketing">
-    <h1>Mobilid</h1>
-    <p class="lead">Mobilid is a software package which intends to be a generic mobile client-server solution. You buy a extendable
-    server-package including some standard 
-    <a href="modules.html#standard">modules</a>. Extendable means that you can buy add-on modules or custom made modules. To enable
-    these modules, you will need a user license code. You need to provide this code to the client application. The mobile client
-    can be downloaded for free.</p>
     <!-- Three columns of text below the carousel -->
     <div class="row">
       <div class="col-lg-4">
@@ -97,25 +99,15 @@
         <p>
           <a class="btn btn-success"
           href="http://www.dolistore.com/lang-en/crm-customer-relationship-management/407-Connector-for-Mobilid-Mobile-client.html"
-          target="_blanc">Buy on Dolistore »</a>
+          target="_blanc">Buy on Dolistore</a>
         </p>
-        <!--<p>For the moment the Dolibarr ERP connector is still in testing
-            phase, you are invited to test the connector:</p>
-          <form class="form-inline" role="form" action="http://z-application.com/php/sendDemoDolibarrConnector.php"
-
-            method="post">
-            <div class="form-group"> <input class="form-control" name="email" placeholder="Enter email"
-
-                type="email"> </div>
-            <button type="submit" class="btn btn-default">Download</button> </form>
-          <p>Connector will be send by email.</p>-->
       </div>
       <!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <h2>Mobilid Documentation and Specifications.</h2>
         <p>Know more about using Mobilid and how to configure the connector.</p>
         <p>
-          <a class="btn btn-success" href="http://docs.z-application.com" target="_blanc">Documentation Â»</a>
+          <a class="btn btn-success" href="http://docs.z-application.com" target="_blanc">Documentation</a>
         </p>
       </div>
       <!-- /.col-lg-4 -->
@@ -127,11 +119,10 @@
       <p class="pull-right">
         <a href="#">Back to top</a>
       </p>
-      <p>Â© 2013-2014 
-      <a href="http://z-application.com/nl">Z-Application</a> · 
-      <a href="http://z-application.com/privacy.html" target="_blanc">Privacy</a> · 
-      <a href="http://z-application.com/terms" target="_blanc">Terms</a> · 
-      <a href="http://z-application.com/support" target="_blanc">Support</a></p>
+      <p>&copy; 2013-2015<a href="http://z-application.com"> Z-Application</a>
+      <span class="glyphicon glyphicon-eye-open"></span><a href="http://z-application.com/privacy.html" target="_blanc"> Privacy</a>
+      <span class="glyphicon glyphicon-file"></span><a href="http://z-application.com/terms" target="_blanc"> Terms</a>
+      <span class="glyphicon glyphicon-comment"></span><a href="http://z-application.com/support" target="_blanc"> Support</a></p>
     </footer>
   </div>
   <!-- /.container -->
