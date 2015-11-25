@@ -225,13 +225,14 @@
 
       var $ = jQuery.noConflict(),
           userLang = navigator.language || navigator.userLanguage,
-          params = {};
+          params = [];
       
       $(document).ready(function ()
       {
           $('#myCarousel').carousel({ interval: 5000, cycle: true });
+          userLang = userLang.split('-')[0];
           window.location.search.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (str, key, value) { params[key] = value; });
-          if (params['lang'] !== 'en')
+          if ((params.length == 0) || params(['lang'] !== 'en'))
           {
               if (userLang === 'fr')
               {
