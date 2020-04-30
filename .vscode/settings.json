@@ -1,13 +1,21 @@
 {
     "cSpell.words": [
+        "CDMA",
         "Dolistore",
+        "EVDO",
         "FEATURETTES",
+        "Felica",
+        "Mifare",
         "Nederlands",
+        "PSAM",
+        "SCDMA",
+        "WCDMA",
         "barcodes",
         "featurette",
         "functieafbeelding",
         "selectable",
         "whatismobilid",
         "youtube"
-    ]
+    ],
+    "cSpell.language": "nl-NL,en-US,fr-FR,de-DE,it-IT,es-ES"
 }
