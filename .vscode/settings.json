@@ -17,5 +17,11 @@
         "whatismobilid",
         "youtube"
     ],
-    "cSpell.language": "nl-NL,en-US,fr-FR,de-DE,it-IT,es-ES"
+    "cSpell.language": "nl-NL,en-US,fr-FR,de-DE,it-IT,es-ES",
+    "googleTranslateExt.languages": [
+        "fr"
+    ],
+    "googleTranslateExt.replaceText": true,
+    "vscodeGoogleTranslate.preferredLanguage": "French",
+    "vscodeGoogleTranslate.HoverTranslations": false
 }
