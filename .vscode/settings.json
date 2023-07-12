@@ -23,5 +23,14 @@
     ],
     "googleTranslateExt.replaceText": true,
     "vscodeGoogleTranslate.preferredLanguage": "French",
-    "vscodeGoogleTranslate.HoverTranslations": false
+    "vscodeGoogleTranslate.HoverTranslations": false,
+    "spellright.language": [
+        "Dutch"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext",
+        "html"
+    ]
 }
