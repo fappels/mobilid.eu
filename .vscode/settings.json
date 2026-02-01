@@ -32,5 +32,6 @@
 		"latex",
 		"plaintext",
 		"html"
-	]
+	],
+	"editor.detectIndentation": false
 }
