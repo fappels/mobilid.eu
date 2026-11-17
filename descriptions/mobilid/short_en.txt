@@ -1,0 +1,1 @@
+Android barcode scanner app for Dolibarr warehouse management. Scan barcodes for inventory and stock management, order picking, goods receiving, stock transfers and order creation. Works on Android barcode terminals, PDAs and phones. Fewer picking errors, faster warehouse work, real-time stock.

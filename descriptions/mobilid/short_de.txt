@@ -1,0 +1,1 @@
+Android-Barcodescanner-App für die Lagerverwaltung in Dolibarr. Barcodes scannen für Inventur, Bestandsverwaltung, Kommissionierung, Wareneingang, Lagerumbuchungen und Auftragserfassung. Für Android-Barcode-Terminals, PDAs und Smartphones. Weniger Fehler, schnellere Abläufe, Echtzeit-Bestand.

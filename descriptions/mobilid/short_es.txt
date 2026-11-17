@@ -1,0 +1,1 @@
+App Android de escáner de códigos de barras para la gestión de almacén en Dolibarr. Escanee para inventario, gestión de stock, preparación de pedidos, recepción de mercancías, transferencias de stock y creación de pedidos. Para terminales de códigos de barras Android, PDA y móviles. Menos errores, stock en tiempo real.

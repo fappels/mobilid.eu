@@ -1,0 +1,1 @@
+Application Android de lecteur de code-barres pour la gestion d'entrepôt avec Dolibarr. Scannez pour l'inventaire, la gestion de stock, la préparation de commandes, la réception de marchandises, les transferts de stock et la création de commandes. Pour terminaux code-barres Android, PDA et smartphones. Moins d'erreurs, stock en temps réel.

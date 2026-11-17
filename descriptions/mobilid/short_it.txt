@@ -1,0 +1,1 @@
+App Android di scansione codici a barre per la gestione del magazzino con Dolibarr. Scansiona per inventario, gestione scorte, picking ordini, ricevimento merci, trasferimenti di stock e creazione ordini. Per terminali barcode Android, PDA e smartphone. Meno errori, scorte in tempo reale.
